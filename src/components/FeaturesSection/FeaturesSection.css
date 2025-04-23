@@ -1,0 +1,110 @@
+/* Features Section */
+.features-section {
+    padding: 60px 20px;
+    background-color: #1d2a3e;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .features-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .features-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Individual Feature Card */
+  .feature-card {
+    background-color: #1b2d4a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);  /* Smoothly move the card upwards */
+    box-shadow: 0 0 20px rgba(0, 120, 255, 0.8); /* Blue glowing effect */
+    background: linear-gradient(145deg, #190d76, #0c3f58);
+    opacity: 1;
+  }
+  
+  .feature-icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover .feature-icon {
+    transform: rotate(15deg);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #af9b9b;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #b8abab;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+  }
+  
+  /* Hover Effect on Cards */
+  .feature-card:hover h3 {
+    color: #68a3e1; /* Change title color on hover */
+  }
+  
+  .feature-card:hover p {
+    color: #4f7ec4; /* Change description color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .features-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-card {
+      width: 90%;
+      margin-bottom: 20px;
+
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .features-section {
+      padding: 40px 20px;
+    }
+  
+    .features-section h2 {
+      font-size: 2rem;
+    }
+  
+    .feature-card {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0px;
+    }
+  }
+  

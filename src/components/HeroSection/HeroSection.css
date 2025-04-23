@@ -1,0 +1,87 @@
+.hero {
+    
+    background-color: #0f172a;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .hero-title span {
+    color: #6366f1; /* Indigo */
+  }
+  
+  .hero-subtext {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #6366f1;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background-color: #4f46e5;
+  }
+  
+  .btn.secondary {
+    background-color: white;
+    color: #6366f1;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #f1f5f9;
+  }
+  
+  .btn.outline {
+    background: transparent;
+    border: 1px solid #94a3b8;
+    color: white;
+  }
+  
+  .btn.outline:hover {
+    background-color: #1e293b;
+  }
+  
+  .hero-visual .visual-placeholder {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    height: 200px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
