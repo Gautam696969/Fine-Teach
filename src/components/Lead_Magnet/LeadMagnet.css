@@ -1,0 +1,77 @@
+.cta-container{
+    background-color: #1d2a3e;
+    height: 35rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cta-section {
+    background: #d1dae9;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    max-width: 600px;
+    margin: 3rem auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    font-family: sans-serif;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #746d6d;
+  }
+  
+  .cta-section p {
+    color: #444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
+  
+  .cta-form input {
+    padding: 0.7rem 1rem;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .cta-form button {
+    background-color: #4a72ff;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cta-form button:hover {
+    background-color: #365ee0;
+  }
+  
+  .ebook-download {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+  }
+  
+  .ebook-download a {
+    color: #2b5dd7;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .ebook-download a:hover {
+    text-decoration: underline;
+  }
+  

@@ -9,7 +9,7 @@
   .features-section h2 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: #a0a7ae;
     margin-bottom: 40px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -38,8 +38,8 @@
   }
   
   .feature-card:hover {
-    transform: translateY(-10px);  /* Smoothly move the card upwards */
-    box-shadow: 0 0 20px rgba(0, 120, 255, 0.8); /* Blue glowing effect */
+    transform: translateY(-10px); 
+    box-shadow: 0 0 20px rgba(0, 120, 255, 0.8); 
     background: linear-gradient(145deg, #190d76, #0c3f58);
     opacity: 1;
   }

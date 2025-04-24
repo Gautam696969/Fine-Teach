@@ -1,0 +1,119 @@
+.Dashboard-container {
+    font-family: sans-serif;
+    margin-top: 30px;
+    padding: 2rem;
+    text-align: center;
+    min-height: 50vh; /* more flexible than fixed height */
+    box-sizing: border-box;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 60px;
+  }
+  
+  .card {
+    background: #a9dbf5;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 20px rgba(75, 81, 247, 0.8);
+    background: linear-gradient(145deg, #abdbe9, #5cc0f1);
+    opacity: 1;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card h2 {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+  }
+  
+  .value {
+    font-size: 1.8rem;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    background: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 8px 0;
+  }
+  
+  .progress-fill {
+    background-color: #4caf50;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .transaction-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* 🔽 Responsive for tablets (width <= 768px) */
+  @media (max-width: 768px) {
+    .Dashboard-container {
+      padding: 1rem;
+    }
+  
+    .dashboard {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+  
+    .card h2 {
+      font-size: 1.1rem;
+    }
+  
+    .value {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* 🔽 Responsive for mobile phones (width <= 480px) */
+  @media (max-width: 480px) {
+    .dashboard {
+      grid-template-columns: 1fr;
+    }
+  
+    .card {
+      padding: 1rem;
+    }
+  
+    .card h2 {
+      font-size: 1rem;
+    }
+  
+    .value {
+      font-size: 1.3rem;
+    }
+  
+    .progress-bar {
+      height: 8px;
+    }
+  
+    .transaction-list li {
+      font-size: 0.9rem;
+      padding: 3px 0;
+    }
+  }
+  

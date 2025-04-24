@@ -1,12 +1,22 @@
+.section-container{
+  background-color: #1e3a8a;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .security-section {
-  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  background: linear-gradient(135deg, #bed4eb, #7395c2);
   padding: 80px 20px;
   text-align: center;
-  color: #0f172a;
+  color: #0c3083;
   border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
-  margin: 40px auto;
-  max-width: 1000px;
+  box-shadow: 0 0 20px 5px rgba(155, 195, 244, 0.3);
+  ;
+
+  margin:  auto;
+  width: 60%;
   overflow: hidden;
 }
 
@@ -21,7 +31,7 @@
 
 .security-subtext {
   font-size: 1.2rem;
-  color: #475569;
+  color: #2c66b8;
   margin-bottom: 40px;
   animation: fadeIn 1s ease;
 }
@@ -55,7 +65,7 @@
 
 .trusted-tagline {
   font-weight: 600;
-  color: #0f766e;
+  color: #0e5c56;
   margin-top: 30px;
   font-size: 1.2rem;
   animation: fadeIn 1.2s ease;
@@ -71,11 +81,10 @@
 }
 
 .trust-logos img {
-  height: 80px;
+  height: 90px;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.7;
   transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  
 }
 
 .trust-logos img:hover {
@@ -83,7 +92,17 @@
   filter: grayscale(0%);
   opacity: 1;
 }
+  
+@media (min-width: 300px) and (max-width: 650px) {
+  .section-container {
+  height:61rem;
+  }
 
+  .security-section {
+    margin: 0px;
+    width: auto;
+  }
+  }
 /* Subtle Animations */
 @keyframes fadeInDown {
   from {

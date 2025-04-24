@@ -1,0 +1,46 @@
+.ai-explained {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #afb2bb;
+  }
+  
+  .intro {
+    font-size: 1.1rem;
+    color: #928686;
+    margin-bottom: 2rem;
+  }
+  
+  .diagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .step {
+    width: 150px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #a6a9b2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .arrow {
+    font-size: 2rem;
+    color: #888;
+  }
+  
