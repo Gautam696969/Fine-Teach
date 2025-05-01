@@ -6,7 +6,7 @@ const logos = [
   { name: "Stripe", src: "public/image/stripe.png" },
   { name: "Plaid", src: "public/image/plaid.png" },
   { name: "Xero", src: "public/image/xero.png"},
-  { name: "SAP", src: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"},
+  { name: "SAP", src: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"}
 ];
 
 const Integrations = () => {

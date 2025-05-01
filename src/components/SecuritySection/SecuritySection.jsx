@@ -18,7 +18,6 @@ const SecuritySection = () => {
       <p className="trusted-tagline">✅ Trusted by Financial Institutions</p>
 
       <div className="trust-logos">
-        {/* Replace these with actual logos */}
         <img src="/fin.png" alt="Bank A" />
         <img src="/finance3.png" alt="Bank B" />
         <img src="/grow.png" alt="Fintech C" />

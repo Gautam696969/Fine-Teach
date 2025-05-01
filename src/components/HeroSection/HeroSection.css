@@ -1,7 +1,8 @@
+@import "tailwindcss";
 .hero {
     
     background-color: #0f172a;
-    color: white;
+   
     padding: 60px 20px;
     text-align: center;
     min-height: 100vh;

@@ -8,24 +8,27 @@ import Integrations from './components/Integrations/Integrations.jsx'
 import Finance from './components/Finance/Finance.jsx'
 import AIExplanation from './components/AIExplanation/AIExplanation.jsx'
 import Lead_Magnet from './components/Lead_Magnet/LeadMagnet.jsx'
+import NavigationBar from './components/NavigationBar/NavigationBar.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import './App.css'
-function App() {
- 
 
+function App() {
   return (
     <>
-      <div>
-    <HeroSection/>
-    <FeaturesSection/>
-    <SecuritySection/>
-    <Dashboard/>
-    <UseCase/>
-    <Testimonials/>
-    <Integrations/>
-    <Finance/>
-    <AIExplanation/>  
-    <Lead_Magnet/>
-     </div>
+    <div>
+      <NavigationBar />
+        <HeroSection/>
+        <FeaturesSection/>
+        <SecuritySection/>
+        <Dashboard/>
+        <UseCase/>
+        <Testimonials/>
+        <Integrations/>
+        <Finance/>
+        <AIExplanation/>  
+        <Lead_Magnet/>
+        <Footer/>
+      </div>
     </>
   )
 }
